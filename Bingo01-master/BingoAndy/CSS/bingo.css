@@ -1,0 +1,83 @@
+.celdas {
+    
+    padding: 7px;
+    margin: 2px;
+    border: 2px solid rgb(62, 201, 74);
+}
+
+p {
+    align-self: center;
+    font-size: 100px;
+    color: rgb(214, 232, 236);
+    background-color: rgb(12, 110, 25);
+    background-repeat: no-repeat; 
+    margin-right: 1190px;
+    position:absolute;
+    left: 40%;
+   
+
+   
+   
+ 
+}
+
+.contenedor {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    border: 8px solid #1e6780;
+    display: grid;
+    
+}
+
+
+h1,h2{
+    color: rgba(226, 156, 27, 0.945);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#id_button{
+    background-color: rgb(235, 177, 220); 
+    border: none;
+    color: rgb(112, 7, 68);
+    font-family: monospace;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20.20%;
+    position:absolute;
+    left: 35%;
+    border: 8px solid ;
+ 
+    
+}
+
+#container{
+    color: rgb(45, 8, 80);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.Cartilla {
+    border: 3px solid #121516;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#cartillasEstilo{
+    background-color: rgba(59, 180, 75, 0.829); 
+    border: none;
+    color: rgb(17, 73, 12);
+    font-family: monospace;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 8px solid ;
+    
+
+    
+}

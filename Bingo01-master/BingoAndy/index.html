@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/bingo.css">
+    <title>bingo</title>
+
+</head>
+
+<body onload="tablas.crear()">
+
+    <center>
+        <h1>BIENVENIDOS AL JUEGO DEL BINGO </h1>
+    </center>
+
+    <br>
+
+    <div class="contenedor" id="container"></div>
+    
+    <br>
+
+    <button onclick="tablas.jugar" id="id_button" >Jugar ya!!!!!</button>
+
+    <br>
+    <button onclick="pausar=true" id="parar">Detener</button>
+    <br><br>
+
+    <p id="number"></p>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h2>Ponga el numero de  cartillas que desee !!!!!|..|</h2>
+    
+
+
+     <input type="number" id="cartillasNumero"> &emsp;&emsp;
+
+
+    <button onclick="tablas.crearCartillas()" id="cartillasEstilo">Crear cartillas</button>
+    <br><br>
+
+   
+    <div id="cartis"></div>
+
+
+</body>
+
+<script src="JS/tablero.js"></script>
+
+</html>
